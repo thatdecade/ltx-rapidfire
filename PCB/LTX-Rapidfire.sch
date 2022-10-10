@@ -17318,137 +17318,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Resistors">
-<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
-This library contains resistors. Reference designator:R. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="0603">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="0402">
-<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
-<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
-<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
-<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="0402-TIGHT">
-<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
-<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
-<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
-<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
-<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
-<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RESISTOR">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.524" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="2.2KOHM" prefix="R">
-<description>&lt;h3&gt;2.2kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08272"/>
-<attribute name="VALUE" value="2.2k"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-1/16W-1%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-14341" constant="no"/>
-<attribute name="VALUE" value="2.2K" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402T-1/16W-1%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-14341" constant="no"/>
-<attribute name="VALUE" value="2.2k" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply2">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
 GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -18755,7 +18624,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R19" library="resistor" deviceset="R-US_" device="R2512" value="3.9R 1W">
 <attribute name="LCSC_PART" value="C66801"/>
 </part>
-<part name="R28" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402-1/16W-1%" value="1K"/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="U3" library="attiny1616" deviceset="ATTINY1616-MNR" device="VQFN20_3X3_MCH-M"/>
@@ -18786,6 +18654,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="+9V" device=""/>
 <part name="JP1" library="adafruit" deviceset="PINHD-1X3" device=""/>
+<part name="R26" library="JLC PCB Basic Parts_loc" deviceset="R_" device="_0603" technology="1K" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -19453,7 +19322,6 @@ AND IZZY84075</text>
 <text x="231.14" y="142.24" size="1.778" layer="91">UPDI</text>
 </plain>
 <instances>
-<instance part="R28" gate="G$1" x="35.56" y="93.98" rot="MR0"/>
 <instance part="SUPPLY10" gate="GND" x="22.86" y="53.34" rot="MR0"/>
 <instance part="SUPPLY2" gate="GND" x="38.1" y="35.56" rot="MR0"/>
 <instance part="U3" gate="A" x="60.96" y="40.64"/>
@@ -19495,6 +19363,10 @@ AND IZZY84075</text>
 <instance part="SUPPLY14" gate="G$1" x="106.68" y="157.48"/>
 <instance part="SUPPLY16" gate="G$1" x="58.42" y="157.48"/>
 <instance part="JP1" gate="A" x="226.06" y="144.78"/>
+<instance part="R26" gate="R1" x="35.56" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="34.0614" y="97.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="36.322" y="97.79" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19537,9 +19409,9 @@ AND IZZY84075</text>
 </net>
 <net name="UPDI" class="0">
 <segment>
-<pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
 <label x="20.32" y="93.98" size="1.778" layer="95"/>
+<pinref part="R26" gate="R1" pin="2"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
@@ -19549,7 +19421,6 @@ AND IZZY84075</text>
 </net>
 <net name="PROGRAM_RESET_PA0" class="0">
 <segment>
-<pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="PA0/!RESET/UPDI"/>
 <wire x1="48.26" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
@@ -19557,6 +19428,7 @@ AND IZZY84075</text>
 <junction x="48.26" y="93.98"/>
 <wire x1="48.26" y1="104.14" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
 <label x="50.8" y="104.14" size="1.778" layer="95"/>
+<pinref part="R26" gate="R1" pin="1"/>
 </segment>
 </net>
 <net name="SGND" class="0">
